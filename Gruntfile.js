@@ -6,7 +6,7 @@ module.exports = function(grunt) {
             },
             files: {
                 src: "./index.html",
-                dest: "./dist/index.html"
+                dest: "./index.min.html"
             }
         },
         cssmin: {
