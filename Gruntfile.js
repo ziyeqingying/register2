@@ -8,16 +8,6 @@ module.exports = function(grunt) {
                 src: "./index.html",
                 dest: "./index.min.html"   
             }
-        },
-        cssmin: {
-            "dist/index.css": "index.css"
-        },
-        uglify: {
-            release: {
-                files: {
-                    "dist/index.js": "index.js"
-                }
-            }
         }
     })
     grunt.loadNpmTasks("grunt-contrib-htmlmin");
