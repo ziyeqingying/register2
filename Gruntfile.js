@@ -18,7 +18,7 @@ module.exports = function(grunt) {
                     "dist/index.js": "index.js"
                 }
             }
-        },
+        }
     })
     grunt.loadNpmTasks("grunt-contrib-htmlmin");
     grunt.loadNpmTasks("grunt-contrib-cssmin");
